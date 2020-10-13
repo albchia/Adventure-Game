@@ -28,9 +28,13 @@ Feel free to customize text, properties, conditions, factors and scenarios so lo
 For inspiration, you can try playing around with `random factors` and `text`.
 
 **1. Print descriptions of what is happening for the player**
+
 One thing the will need to do is to print messages for the player to describe what is happening.
 
 **2. Introduce the `time.sleep` to pause between printing descriptions**
+
 Add `time.sleep` function to create suspance between the print.
 
 **3. Give the player some choices**
+
+Up till now, the program prints the introduction of the game, with short pauses in between each sentence. Another important element of any good 
