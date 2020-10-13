@@ -4,10 +4,14 @@ A simple version of an old-fashioned text-based Adventure Game within Python.
 This was one of the projects I realized during the Udacity Path "Intro to Programming" Nanodegree.
 
 ## Table of Contents
-- About the Project
+- [About the Project](#About-the-Project) 
 - Contributing
 
 ## About the Project
+Title: _"Adventure Game"_
+
+> GitHub: link - https://github.com/albchia/Adventure-Game.git
+
 This is the second project made during Udacity classroom on "Intro to Programming".
 
 #### Project Overview
@@ -18,4 +22,9 @@ This project is a simple version of an old-fashioned text-based adventure game:
 - The game also includes some `random factors`, so the game is a little bit different each time.
 - The game has _conditions_ for winning and losing.
 - When the game is over, it asks if the player wants to play again.
+
+#### Project Instructions
+Feel free to customize text, properties, conditions, factors and scenarios so long as you follow the following rules.
+For inspiration, you can try playing around with `random factors` and `text`. 
+
 
