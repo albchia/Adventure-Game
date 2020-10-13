@@ -39,4 +39,6 @@ For inspiration, you can try playing around with `random factors` and `text`.
 
 We will deal with subsequent choices after the first choice in the upcoming steps.
 
+**4. Make sure the player gives a valid input**: up to here the program prints a description of the game world to the players, giving them a choice and prints what happens depending on their choice.
 
+An important thing to notice is that 
