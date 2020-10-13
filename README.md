@@ -27,4 +27,10 @@ This project is a simple version of an old-fashioned text-based adventure game:
 Feel free to customize text, properties, conditions, factors and scenarios so long as you follow the following rules.
 For inspiration, you can try playing around with `random factors` and `text`.
 
-> **1. Print descriprions of what is happening for the player** 
+**1. Print descriptions of what is happening for the player**
+One thing the will need to do is to print messages for the player to describe what is happening.
+
+**2. Introduce the `time.sleep` to pause between printing descriptions**
+Add `time.sleep` function to create suspance between the print.
+
+**3. Give the player some choices**
