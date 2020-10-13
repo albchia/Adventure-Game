@@ -27,6 +27,4 @@ This project is a simple version of an old-fashioned text-based adventure game:
 Feel free to customize text, properties, conditions, factors and scenarios so long as you follow the following rules.
 For inspiration, you can try playing around with `random factors` and `text`.
 
-
-
-
+> **1. Print descriprions of what is happening for the player** 
