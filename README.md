@@ -47,9 +47,9 @@ An important thing to notice is that if the players enter something different fr
 > Examples are `print_pause` functions.
 > It is also possible to use functions in a game where you can define a function for each place the player can go:
 >> def fight():
->>   # add code
+>>   add code
 >> def cave():
->>   # add code
+>>   add code
 >> def field():
->>   # add code 
+>>   add code 
 > That way, when a player chooses to go to one of these places, you can simply call the function that displays the descriptions and choices for that place.
