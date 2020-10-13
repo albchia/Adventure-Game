@@ -44,3 +44,12 @@ We will deal with subsequent choices after the first choice in the upcoming step
 An important thing to notice is that if the players enter something different from 1 or 2, _the game keeps asking them for a 1 or 2_, because we dont' want to accept `invalid input`.
 
 **5. Add `functions` and `refactor` your code**: if you haven't done already, it is time to define some `functions` and moving some `code` into those functions.
+> Examples are `print_pause` functions.
+> It is also possible to use functions in a game where you can define a function for each place the player can go:
+    > def fight():
+    >   # add code
+    > def cave():
+    >   # add code
+    > def field():
+    >   # add code 
+ > That way, when a player chooses to go to one of these places, you can simply call the function that displays the descriptions and choices for that place.
