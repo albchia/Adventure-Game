@@ -24,5 +24,7 @@ This project is a simple version of an old-fashioned text-based adventure game:
 - When the game is over, it asks if the player wants to play again.
 
 #### Project Instructions
+Feel free to customize text, properties, conditions, factors and scenarios so long as you follow the following rules.
+For inspiration, you can try playing around with `random factors` and `text`. 
 
 
