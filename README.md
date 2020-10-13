@@ -31,4 +31,31 @@ For inspiration, you can try playing around with `random factors` and `text`.
 
 **2. Introduce the `time.sleep` to pause between printing descriptions**: add `time.sleep` function to create suspance between the print.
 
-**3. Give the player some choices**: up till now, the program prints the introduction of the game, with short pauses in between each sentence. Another important element of any good Adventure Game is _choice_. To do this 
+**3. Give the player some choices**: up till now, the program prints the introduction of the game, with short pauses in between each sentence. Another important element of any good Adventure Game is _choice_. To do this, you will need to get some `input` from the player and then change what happens depending on what the input is.
+
+> For example, each time we make a choice something happens, and we are offered 2 choices again till we win or loose:
+> - If the player knocks to the door of the _house_, what happens?
+> - If the player enters in the _cave_, what happens?
+
+We will deal with subsequent choices after the first choice in the upcoming steps.
+
+**4. Make sure the player gives a valid input**: up to here the program prints a description of the game world to the players, giving them a choice and prints what happens depending on their choice.
+
+An important thing to notice is that if the players enter something different from 1 or 2, _the game keeps asking them for a 1 or 2_, because we dont' want to accept `invalid input`.
+
+**5. Add `functions` and `refactor` your code**: if you haven't done already, it is time to define some `functions` and moving some `code` into those functions.
+> Examples are `print_pause` functions.
+> It is also possible to use functions in a game where you can define a function for each place the player can go:
+>> def fight():
+
+>>   add code
+
+>> def cave():
+
+>>   add code
+
+>> def field():
+
+>>   add code 
+
+> That way, when a player chooses to go to one of these places, you can simply call the function that displays the descriptions and choices for that place.
