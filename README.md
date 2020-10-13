@@ -41,4 +41,6 @@ We will deal with subsequent choices after the first choice in the upcoming step
 
 **4. Make sure the player gives a valid input**: up to here the program prints a description of the game world to the players, giving them a choice and prints what happens depending on their choice.
 
-An important thing to notice is that 
+An important thing to notice is that if the players enter something different from 1 or 2, _the game keeps asking them for a 1 or 2_, because we dont' want to accept `invalid input`.
+
+**5. Add `functions` and `refactor` your code**: if you haven't done already, it is time to define some `functions` and moving some `code` into those functions.
