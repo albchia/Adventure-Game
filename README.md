@@ -31,4 +31,12 @@ For inspiration, you can try playing around with `random factors` and `text`.
 
 **2. Introduce the `time.sleep` to pause between printing descriptions**: add `time.sleep` function to create suspance between the print.
 
-**3. Give the player some choices**: up till now, the program prints the introduction of the game, with short pauses in between each sentence. Another important element of any good Adventure Game is _choice_. To do this 
+**3. Give the player some choices**: up till now, the program prints the introduction of the game, with short pauses in between each sentence. Another important element of any good Adventure Game is _choice_. To do this, you will need to get some `input` from the player and then change what happens depending on what the input is.
+
+> For example, each time we make a choice something happens, and we are offered 2 choices again till we win or loose:
+> - If the player knocks to the door of the _house_, what happens?
+> - If the player enters in the _cave_, what happens?
+
+We will deal with subsequent choices after the first choice in the upcoming steps.
+
+
