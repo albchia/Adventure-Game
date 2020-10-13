@@ -4,7 +4,7 @@ A simple version of an old-fashioned text-based Adventure Game within Python.
 This was one of the projects I realized during the Udacity Path "Intro to Programming" Nanodegree.
 
 ## Table of Contents
-- About the Project
+- [About the Project](#About-the-Project) 
 - Contributing
 
 ## About the Project
