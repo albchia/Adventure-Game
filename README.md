@@ -71,3 +71,9 @@ All of these can be done using Python's `random module`, the `random.choice` and
 **9. Check your `style` with `pycodestyle`**: be sure to check the program using `pycodestyle` and then fix any issues.
 
 **10. Test your code**: before submitting your project, be sure to test it.
+
+## Contributing
+This repository is the project created by myself during the Udacity Program.
+Therefore, pull requests will not be accepted.
+
+> For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
