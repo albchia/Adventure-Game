@@ -51,5 +51,6 @@ An important thing to notice is that if the players enter something different fr
 >> - def cave():
 >> add code
 >> - def field():
->> add code 
+>> add code
+>
 > That way, when a player chooses to go to one of these places, you can simply call the function that displays the descriptions and choices for that place.
