@@ -54,3 +54,12 @@ An important thing to notice is that if the players enter something different fr
 >> add code
 >
 > That way, when a player chooses to go to one of these places, you can simply call the function that displays the descriptions and choices for that place.
+> 
+Usually, each function will print what happens after the player takes a certain choice, then offer another choice and call the specific function depending on the choice the player makes. In the end, you would have a `play_game` or `main()` function, which starts the game.
+
+**6. Use `randomness` in your game**: another key feature is the `randomness` or _chance_. There are all sorts of ways you could use `randomness` in your game:
+- The _enemy_ creature is selected `randomly` each time they play. Sometimes it could be a pirate, a dragon, a troll, a wicked fairie.
+- You could do something similar to randomize which _weapons_ or magical items the player encounters.
+- You could include, for example, a _combat simulation_...
+
+All of these can be done using python's `random module`, the `random.choice` and the `random.randint` functions. For example, at the start of the game, you can set the `random enemy creature`. Be creative.
