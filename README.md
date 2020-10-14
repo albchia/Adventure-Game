@@ -54,3 +54,5 @@ An important thing to notice is that if the players enter something different fr
 >> add code
 >
 > That way, when a player chooses to go to one of these places, you can simply call the function that displays the descriptions and choices for that place.
+> 
+> Usually, each function will print what happens after the player takes a certain choice, then offer another choice and call the specific function depending on the choice the >player makes.
