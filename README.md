@@ -62,4 +62,10 @@ Usually, each function will print what happens after the player takes a certain 
 - You could do something similar to randomize which _weapons_ or magical items the player encounters.
 - You could include, for example, a _combat simulation_...
 
-All of these can be done using python's `random module`, the `random.choice` and the `random.randint` functions. For example, at the start of the game, you can set the `random enemy creature`. Be creative.
+All of these can be done using Python's `random module`, the `random.choice` and the `random.randint` functions. For example, at the start of the game, you can set the `random enemy creature`. Be creative.
+
+**7. Create `win` and `lose` conditions**: eventually, the game should come to an end -and tell the players if they have won or lost-.
+
+**8. Check if the players want to play again**: when Python gets to the end of the `script`, it will exit back to the terminal. But that is not a good player experience. Instead, it would be better that the game ask the player whether they want to play again.
+
+**9. Check your `style` with `pycodestyle`**: 
