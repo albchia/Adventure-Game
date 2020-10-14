@@ -68,4 +68,6 @@ All of these can be done using Python's `random module`, the `random.choice` and
 
 **8. Check if the players want to play again**: when Python gets to the end of the `script`, it will exit back to the terminal. But that is not a good player experience. Instead, it would be better that the game ask the player whether they want to play again.
 
-**9. Check your `style` with `pycodestyle`**: 
+**9. Check your `style` with `pycodestyle`**: be sure to check the program using `pycodestyle` and then fix any issues.
+
+**10. Test your code**: before submitting your project, be sure to test it.
