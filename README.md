@@ -1,21 +1,26 @@
 # Adventure-Game
+
 A simple version of an old-fashioned text-based Adventure Game within Python.
 
 This was one of the projects I realized during the Udacity Path "Intro to Programming" Nanodegree.
 
 ## Table of Contents
-- [About the Project](#About-the-Project) 
+
+- [About the Project](#About-the-Project)
 - [Contributing](#Contributing)
 
 ## About the Project
+
 Title: _"Adventure Game"_
 
-> GitHub: link - https://github.com/albchia/Adventure-Game.git
+> GitHub: [link](https://github.com/albchia/Adventure-Game.git)
 
 This is the second project made during Udacity classroom on "Intro to Programming".
 
-#### Project Overview
-This project is a simple version of an old-fashioned text-based adventure game: 
+### Project Overview
+
+This project is a simple version of an old-fashioned text-based adventure game:
+
 - The game will present some scenarios, asking you to make one of the two choices by entering 1 or 2.
 - The game gives players a description of what is happening, and then asks them to make a choice.
 - Something different happens depending on the choice the player made.
@@ -23,7 +28,8 @@ This project is a simple version of an old-fashioned text-based adventure game:
 - The game has _conditions_ for winning and losing.
 - When the game is over, it asks if the player wants to play again.
 
-#### Project Instructions
+### Project Instructions
+
 Feel free to customize text, properties, conditions, factors and scenarios so long as you follow the following rules.
 For inspiration, you can try playing around with `random factors` and `text`.
 
@@ -34,6 +40,7 @@ For inspiration, you can try playing around with `random factors` and `text`.
 **3. Give the player some choices**: up till now, the program prints the introduction of the game, with short pauses in between each sentence. Another important element of any good Adventure Game is _choice_. To do this, you will need to get some `input` from the player and then change what happens depending on what the input is.
 
 > For example, each time we make a choice something happens, and we are offered 2 choices again till we win or loose:
+>
 > - If the player knocks to the door of the _house_, what happens?
 > - If the player enters in the _cave_, what happens?
 
@@ -46,6 +53,7 @@ An important thing to notice is that if the players enter something different fr
 **5. Add `functions` and `refactor` your code**: if you haven't done already, it is time to define some `functions` and moving some `code` into those functions.
 > Examples are `print_pause` functions.
 > It is also possible to use functions in a game where you can define a function for each place the player can go:
+>>
 >> - def fight():
 >> add code
 >> - def cave():
@@ -54,10 +62,11 @@ An important thing to notice is that if the players enter something different fr
 >> add code
 >
 > That way, when a player chooses to go to one of these places, you can simply call the function that displays the descriptions and choices for that place.
-> 
+>
 Usually, each function will print what happens after the player takes a certain choice, then offer another choice and call the specific function depending on the choice the player makes. In the end, you would have a `play_game` or `main()` function, which starts the game.
 
 **6. Use `randomness` in your game**: another key feature is the `randomness` or _chance_. There are all sorts of ways you could use `randomness` in your game:
+
 - The _enemy_ creature is selected `randomly` each time they play. Sometimes it could be a pirate, a dragon, a troll, a wicked fairie.
 - You could do something similar to randomize which _weapons_ or magical items the player encounters.
 - You could include, for example, a _combat simulation_...
@@ -73,6 +82,7 @@ All of these can be done using Python's `random module`, the `random.choice` and
 **10. Test your code**: before submitting your project, be sure to test it.
 
 ## Contributing
+
 This repository is the project created by myself during the Udacity Program.
 Therefore, pull requests will not be accepted.
 
