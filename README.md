@@ -83,7 +83,7 @@ All of these can be done using Python's `random module`, the `random.choice` and
 
 ## Contributing
 
-This repository is the project created by myself during the Udacity Program.
+This is the repository of the project created by myself during the Udacity Program.
 Therefore, pull requests will not be accepted.
 
 > For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
